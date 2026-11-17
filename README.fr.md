@@ -19,7 +19,13 @@
 
 ## Architecture
 
+![Architecture : le propriétaire s'adresse au manager, qui aiguille vers les sessions d'agents ; les sessions répondent au propriétaire, un vérificateur neuf dans chaque session contrôle ses annonces ; le tableau de bord lit l'état des sessions toutes les 5 minutes et sert la page par Tailscale](docs/architecture.svg)
+
+<details><summary>Diagramme en français</summary>
+
 ![Architecture : le propriétaire s'adresse au manager, qui aiguille vers les sessions d'agents ; les sessions répondent au propriétaire, un vérificateur neuf dans chaque session contrôle ses annonces ; le tableau de bord lit l'état des sessions toutes les 5 minutes et sert la page par Tailscale](docs/architecture.fr.svg)
+
+</details>
 
 ## État
 

@@ -21,6 +21,12 @@
 
 ![Architecture: the owner asks the manager, which routes to the agent sessions; the sessions answer the owner, a fresh verifier inside each session checks its claims; the dashboard reads the sessions' state every 5 minutes and serves the page over Tailscale](docs/architecture.svg)
 
+<details><summary>French version</summary>
+
+![Architecture : le propriétaire s'adresse au manager, qui aiguille vers les sessions d'agents ; les sessions répondent au propriétaire, un vérificateur neuf dans chaque session contrôle ses annonces ; le tableau de bord lit l'état des sessions toutes les 5 minutes et sert la page par Tailscale](docs/architecture.fr.svg)
+
+</details>
+
 ## Status
 
 - **In service** since 29 October 2026; the page is on my server, reachable only over Tailscale.
