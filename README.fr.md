@@ -1,6 +1,6 @@
 [English](README.md) · **Français**
 
-# Pilotage de la flotte d'agents
+# Flotte d'agents
 
 **Une page montre toutes les sessions d'agents de programmation que je fais tourner, sur toutes mes machines : qui travaille, qui m'attend, et pourquoi.**
 
@@ -13,17 +13,17 @@
 - **Sessions.** Chaque session du serveur, du portable, de la tour et des postes partagés, avec son état (travaille, attend, en pause, machine injoignable) et un point court sur où elle en est.
 - **Aiguillage.** Une demande va à la session ouverte qu'elle concerne, ou en ouvre une avec un modèle et un effort choisis selon la difficulté.
 - **Décisions communes.** Une règle qui vaut partout est diffusée une fois, puis injectée dans chaque session, sur chaque machine.
-- **Résultats vérifiés.** Un agent neuf, en lecture seule, vérifie chaque résultat avant qu'il me parvienne ; s'il le conteste, la session a droit à une correction.
-- **Bilan de la semaine.** Chaque lundi à 8 h : autonomie, relances, rétractations, résultats contestés, renvois.
+- **Annonces vérifiées.** Chaque message qui annonce un résultat est revérifié aussitôt par un agent neuf en lecture seule ; s'il le conteste, la session corrige une fois.
+- **Bilan de la semaine.** Chaque lundi à 8 h, par session.
 - **Ménage.** Les sessions du serveur dont le lien de pilotage à distance est coupé depuis une heure sont fermées.
 
 ## Architecture
 
-![Architecture : le propriétaire s'adresse à la session manager, qui aiguille vers les sessions d'agents ; un vérificateur neuf contrôle chaque résultat ; le tableau de bord lit l'état des sessions toutes les 5 minutes et sert la page par Tailscale](docs/architecture.fr.svg)
+![Architecture : le propriétaire s'adresse au manager, qui aiguille vers les sessions d'agents ; les sessions répondent au propriétaire, un vérificateur neuf dans chaque session contrôle ses annonces ; le tableau de bord lit l'état des sessions toutes les 5 minutes et sert la page par Tailscale](docs/architecture.fr.svg)
 
 ## État
 
-- **En service** depuis le 29/10/2026, sur mon serveur, joignable seulement par Tailscale.
+- **En service** depuis le 29/10/2026 ; la page est sur mon serveur, joignable seulement par Tailscale.
 - **Bilan du 16/11/2026 :** autonomie 58 %, 135 relances, 115 rétractations, 377 résultats contestés, 46 renvois.
 - **Limite connue :** l'évaluation ne lit que les conversations tenues sur le serveur.
 - **Technique.** Python et cron (page, aiguillage, résumés, bilan), TypeScript (extensions de Claude Code), tmux, Tailscale.

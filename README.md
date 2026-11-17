@@ -1,6 +1,6 @@
 **English** · [Français](README.fr.md)
 
-# Agent fleet dashboard
+# Agent fleet
 
 **One page shows every coding-agent session I run, on every machine: who is working, who is waiting for me, and why.**
 
@@ -13,17 +13,17 @@
 - **Sessions.** Every session on the server, the laptop, the gaming PC and the shared workstations, with its state (working, waiting, paused, machine unreachable) and a short summary of where it stands.
 - **Routing.** A request goes to the open session it concerns, or opens a new one with a model and effort chosen by difficulty.
 - **Shared decisions.** A rule that applies everywhere is published once and injected into every session, on every machine.
-- **Checked results.** A fresh read-only agent checks each result before it reaches me; if it disputes it, the session gets one correction.
-- **Weekly report.** Every Monday at 8 am: autonomy, nudges, retractions, disputed results, hand-backs.
+- **Checked claims.** Each message that announces a result is checked right after by a fresh read-only agent; if it disputes it, the session corrects once.
+- **Weekly report.** Every Monday at 8 am, per session.
 - **Housekeeping.** Server sessions whose remote-control link has been cut for an hour are closed.
 
 ## Architecture
 
-![Architecture: the owner asks the manager session, which routes to the agent sessions; a fresh verifier checks each result; the dashboard reads the sessions' state every 5 minutes and serves the page over Tailscale](docs/architecture.svg)
+![Architecture: the owner asks the manager, which routes to the agent sessions; the sessions answer the owner, a fresh verifier inside each session checks its claims; the dashboard reads the sessions' state every 5 minutes and serves the page over Tailscale](docs/architecture.svg)
 
 ## Status
 
-- **In service** since 29 October 2026, on my server, reachable only over Tailscale.
+- **In service** since 29 October 2026; the page is on my server, reachable only over Tailscale.
 - **Report of 16 November 2026:** autonomy 58 %, 135 nudges, 115 retractions, 377 disputed results, 46 hand-backs.
 - **Known limit:** the evaluation only reads the conversations held on the server.
 - **Stack.** Python and cron (page, routing, summaries, report), TypeScript (Claude Code extensions), tmux, Tailscale. Interface in French.
