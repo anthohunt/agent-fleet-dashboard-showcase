@@ -5,7 +5,7 @@
 <rect x="20" y="20" width="600" height="124" rx="14" fill="#e6ebf2" stroke="#c9d1dd" stroke-dasharray="4 4"/>
 <text x="34" y="40" text-anchor="start" fill="#5d6b82" font-size="13" font-weight="600" letter-spacing=".7">RÉSEAU PRIVÉ · TAILSCALE</text>
 <rect x="20" y="200" width="600" height="262" rx="14" fill="#e6ebf2" stroke="#c9d1dd" stroke-dasharray="4 4"/>
-<text x="606" y="450" text-anchor="end" fill="#5d6b82" font-size="13" font-weight="600" letter-spacing=".7">SERVEUR · VPS</text>
+<text x="34" y="220" text-anchor="start" fill="#5d6b82" font-size="13" font-weight="600" letter-spacing=".7">SERVEUR · VPS</text>
 <rect x="20" y="520" width="600" height="112" rx="14" fill="#e6ebf2" stroke="#c9d1dd" stroke-dasharray="4 4"/>
 <text x="606" y="620" text-anchor="end" fill="#5d6b82" font-size="13" font-weight="600" letter-spacing=".7">OÙ TOURNENT LES AGENTS</text>
 <g id="box0"><rect x="180" y="52" width="424" height="64" rx="10" fill="#fff" stroke="#1f4fd1" stroke-width="2.2"/><text x="194" y="79" fill="#14213d" font-size="16" font-weight="600">Propriétaire</text><text x="194" y="101" fill="#5d6b82" font-size="13.5">téléphone ou navigateur</text></g>
