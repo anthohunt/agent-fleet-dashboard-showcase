@@ -24,7 +24,7 @@
 ## Status
 
 - **In service** since 29 October 2026; the page is on my server, reachable only over Tailscale.
-- **Report of 16 November 2026:** autonomy 58 %, 135 nudges, 115 retractions, 377 disputed results, 46 hand-backs.
+- **Report of 16 November 2026:** autonomy 58 %, 135 nudges, 115 retractions, 377 disputed claims, 46 hand-backs.
 - **Known limit:** the evaluation only reads the conversations held on the server.
 - **Stack.** Python and cron (page, routing, summaries, report), TypeScript (Claude Code extensions), tmux, Tailscale. Interface in French.
 

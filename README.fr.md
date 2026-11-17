@@ -24,7 +24,7 @@
 ## État
 
 - **En service** depuis le 29/10/2026 ; la page est sur mon serveur, joignable seulement par Tailscale.
-- **Bilan du 16/11/2026 :** autonomie 58 %, 135 relances, 115 rétractations, 377 résultats contestés, 46 renvois.
+- **Bilan du 16/11/2026 :** autonomie 58 %, 135 relances, 115 rétractations, 377 annonces contestées, 46 renvois.
 - **Limite connue :** l'évaluation ne lit que les conversations tenues sur le serveur.
 - **Technique.** Python et cron (page, aiguillage, résumés, bilan), TypeScript (extensions de Claude Code), tmux, Tailscale.
 
