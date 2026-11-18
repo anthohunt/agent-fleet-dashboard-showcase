@@ -4,15 +4,15 @@
 
 **Une page montre toutes les sessions d'agents de programmation que je fais tourner, sur toutes mes machines : qui travaille, qui m'attend, et pourquoi.**
 
-[![Le tableau de bord, avec des données de démonstration : les sessions et ce qu'elles attendent, les postes partagés, l'évaluation sur 7 jours, puis la régénération suivante et la vue téléphone (version anglaise, cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/1mxuK-VwTylMy7krMUYF3kyMyePExenUA/view)
+![Le tableau de bord, avec des données de démonstration : les sessions et ce qu'elles attendent, les postes partagés, l'évaluation sur 7 jours, puis la régénération suivante et la vue téléphone (version anglaise)](docs/demo.gif)
 
 <details><summary>Version française</summary>
 
-[![Le tableau de bord, avec des données de démonstration : les sessions et ce qu'elles attendent, les postes partagés, l'évaluation sur 7 jours, puis la régénération suivante et la vue téléphone (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/1Y2USQyYhHUVtt-65RvrHAnOG4QcVHc_g/view)
+![Le tableau de bord, avec des données de démonstration : les sessions et ce qu'elles attendent, les postes partagés, l'évaluation sur 7 jours, puis la régénération suivante et la vue téléphone](docs/demo.fr.gif)
 
 </details>
 
-*La vraie page, remplie de données de démonstration. [Vidéo complète (1:04)](https://drive.google.com/file/d/1Y2USQyYhHUVtt-65RvrHAnOG4QcVHc_g/view)*
+*La vraie page, remplie de données de démonstration.*
 
 ## Ce qu'on en fait
 

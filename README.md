@@ -4,15 +4,15 @@
 
 **One page shows every coding-agent session I run, on every machine: who is working, who is waiting for me, and why.**
 
-[![The dashboard, with demo data: sessions and what they wait for, shared workstations, the 7-day evaluation, then the next regeneration and the phone view (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1mxuK-VwTylMy7krMUYF3kyMyePExenUA/view)
+![The dashboard, with demo data: sessions and what they wait for, shared workstations, the 7-day evaluation, then the next regeneration and the phone view](docs/demo.gif)
 
 <details><summary>French version</summary>
 
-[![Le tableau de bord, avec des données de démonstration : les sessions et ce qu'elles attendent, les postes partagés, l'évaluation sur 7 jours, puis la régénération suivante et la vue téléphone (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/1Y2USQyYhHUVtt-65RvrHAnOG4QcVHc_g/view)
+![Le tableau de bord, avec des données de démonstration : les sessions et ce qu'elles attendent, les postes partagés, l'évaluation sur 7 jours, puis la régénération suivante et la vue téléphone](docs/demo.fr.gif)
 
 </details>
 
-*The real page, filled with demo data. [Full video (1:04)](https://drive.google.com/file/d/1mxuK-VwTylMy7krMUYF3kyMyePExenUA/view)*
+*The real page, filled with demo data.*
 
 ## Using it
 
